@@ -1,0 +1,239 @@
+.portfolio-container{
+    font-family: "Roboto";
+}
+.portfolio-container h2{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: rgb(81, 131, 187);
+}
+.navbar {
+    display: flex;
+    gap: 2rem;
+    margin-left: 40%;
+}
+.navbar a{
+    text-decoration: none;
+    color: #3b3b3b;
+}
+.navbar a:hover{
+    color: rgb(81, 131, 187);
+}.home-container{
+    margin-left: 16%;
+}
+.introduction{
+    display: flex;
+    gap: 1rem;
+}
+.intro-details{
+    margin-top: 4rem;
+}
+.intro-details h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgb(17, 28, 41);
+    margin-bottom: 1rem;
+}
+.intro-details h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+.connect{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+#get-btn{
+    height: 2rem;
+    width: 8rem;
+    border: 2px solid rgb(81, 131, 187);
+    background: none;
+    color: #000;
+    font-size: 0.9rem;
+}
+.socials{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(81, 131, 187);
+}
+ .intro-image img{
+    height: 20rem;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 5rem;
+
+}
+.about-container{
+    margin-left: 16%;
+    margin-top: 8%;
+}
+.about-container h3{
+    font-size: 1rem;
+    font-weight: 450;
+}
+.about-info{
+    display: flex;
+    gap: 4rem;
+}
+.about-image img{
+    height: 16rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.about-details p{
+    font-size: 0.9rem;
+    line-height: 2;
+    margin-bottom: 0;
+}
+.about-container h4{
+    margin-left: 16rem;
+    color: #3b3b3b;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    margin-top: 0rem;
+}
+.skills{
+    display: flex;
+    gap: 4rem;
+    margin-left: 16rem;
+    margin-top: 1rem;
+}
+.progress-bar{
+    position: relative;
+    width: 56px;
+    height: 90px;
+    border-radius: 50%;
+}
+svg{
+    width: 10rem;
+    height: 10rem;
+}
+svg circle{
+    fill: none;
+    stroke: rgb(81, 131, 187);
+    stroke-linecap: round;
+    stroke-width: 8;
+    transform: translate(5px , 5px);
+    stroke-dashoffset: -16;
+    stroke-dasharray: 200;
+}
+.progress-bar p{
+    position: absolute;
+    top: 1rem;
+    left: 0.8rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.progress-bar h4{
+   margin-top: 0;
+}
+.services-container{
+    margin-left: 16%;
+    margin-top: 8%;
+}
+.services-container h3{
+    font-size: 1rem;
+    font-weight: 450;
+    padding-bottom: 1rem;
+}
+.services{
+    display: flex;
+    gap: 4rem;
+}
+.service-card{
+    background: rgb(245, 244, 244);
+    padding: 0 0.8rem 1rem 0.8rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #3b3b3b;
+    transition: all 300ms ease;
+}
+.service-card:hover{
+    background: rgb(205, 227, 253);
+}
+.service-card h3{
+    font-size: 1rem;
+    font-weight: 450;
+}
+.service-card p{
+    font-size: 0.9rem;
+}
+.service-card a{
+    text-decoration: none;
+    color: rgb(81, 131, 187);
+}
+.projects-container{
+    margin-left: 8%;
+    margin-top: 12%;
+}
+.projects-container h3{
+    font-size: 1rem;
+    font-weight: 450;
+    padding-bottom: 1rem;
+}
+.projects{
+    display: flex;
+    gap: 2rem;
+}
+.project-card{
+    display: block;
+    background: rgb(220, 224, 230);
+    padding-bottom: 0.8rem;
+    border-radius: 20px;
+    transition: all 300ms ease;
+}
+.project-card:hover{
+    background: rgb(205, 227, 253);
+}
+
+.card-image img{
+    height: 12rem;
+    width: 80%;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+.card-details h3{
+    font-weight: 500;
+    padding-left: 2rem;
+    margin-bottom: 0;
+}
+.card-details h5{
+    font-weight: 400;
+    padding-left: 2rem;
+    color: rgb(104, 104, 104);
+    margin: 0;
+}
+.links{
+    display: flex;
+    gap: 1rem;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(81, 131, 187);
+    padding-left: 2rem;
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+}
+.footer{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+.footer h6{
+    font-weight: 500;
+    font-size: 0.6rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    color: gray;
+}
+.footer a{
+    text-decoration: none;
+    color: gray;
+}
