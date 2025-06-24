@@ -1,19 +1,28 @@
-import React from 'react'
+import {useState} from 'react'
 import portfolio from './images/ronn.jpg';
 import code from './images/code.jpg';
 import project1 from './images/project1.jpg';
 import project2 from './images/project2.jpg';
 import project3 from './images/project3.jpg';
 function Home() {
+
+
+    const [showNavbar, setShowNavbar] = useState('false');
   return (
     <div className="portfolio-container">
-        <h2>My Portfolio</h2>
-        <section className='home-container'>
-            <div className="navbar">
-                <a href='#'>Home</a>
-                <a href='#'>About</a>
-                <a href='#'>Services</a>
-                <a href='#'>Project</a>
+        <div className='top-head'>
+            <h2>My Portfolio</h2>
+            <div className="icon-menu">
+                <span className='material-icons-sharp'
+                      onClick={() =>setShowNavbar(!showNavbar)}>menu</span>
+            </div>
+        </div>
+        <section className='home-container' id='home'>
+            <div className={`navbar ${showNavbar ? 'show': ''}`}>
+                <a href='#home'>Home</a>
+                <a href='#about'>About</a>
+                <a href='#services'>Services</a>
+                <a href='#projects'>Project</a>
                 <a href='#'>Contact</a>
             </div>
             <div className="introduction">
@@ -39,7 +48,7 @@ function Home() {
                 </div>
             </div>
         </section>
-        <section className='about-container'>
+        <section className='about-container'id='about'>
             <h3>ABOUT ME</h3>
             <div className="about-info">
                 <div className="about-image">
@@ -99,7 +108,7 @@ function Home() {
                 </div>
             </div>
         </section>
-        <section className='services-container'>
+        <section className='services-container'id='services'>
             <h3>My Services</h3>
             <div className="services">
                 <div className="service-card">
@@ -134,7 +143,7 @@ function Home() {
                 </div>
             </div>
         </section>
-        <section className='projects-container'>
+        <section className='projects-container' id='projects'>
             <h3>My Work</h3>
             <div className="projects">
                 <div className="project-card">
