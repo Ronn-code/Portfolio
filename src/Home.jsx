@@ -1,9 +1,10 @@
-import {useState} from 'react'
+import {useState} from 'react';
+import { Link } from 'react-router-dom';
 import portfolio from './images/ronn.jpg';
 import code from './images/code.jpg';
 import project1 from './images/project1.jpg';
-import project2 from './images/project2.jpg';
 import project3 from './images/project3.jpg';
+import project4 from './images/project4.jpg';
 function Home() {
 
 
@@ -29,6 +30,12 @@ function Home() {
                 <div className="intro-details">
                     <h3>Hello, I'm a Front-end Developer</h3>
                     <h4>Web Designer & UI/UX Designer</h4>
+                    <p>I'm passionate about crafting seamless digital experiences through<br/>
+                    FrontEnd development, Web design & UI/UX design.I specialize in<br/>
+                    building responsive,user-centered interfaces using tools like<br/>
+                    React, HTML5, CSS3, Javascript, Tailwind css and Figma<br/>
+                    My work blends creativity with functionality to deliver <br/>
+                    impactful solutions across Modern Web platforms</p>
                     <div className="connect">
                         <button id='get-btn'>Get in Touch</button>
                         <div className="socials">
@@ -143,53 +150,31 @@ function Home() {
                 </div>
             </div>
         </section>
-        <section className='projects-container' id='projects'>
-            <h3>My Work</h3>
-            <div className="projects">
-                <div className="project-card">
-                    <div className="card-image">
-                        <img src={project1}></img>
-                    </div>
-                    <div className="card-details">
-                        <h3>E-commerce Website Dev</h3>
-                        <h5>It is a shoe-selling website  where customers<br/>
-                        can view all products and buy any of interest<br/>
-                        through the seller</h5>
-                        <div className="links">
-                            <a href='https://github.com/Ronn-code/E-commerce' target='_blank'>Github</a>
-                            <a href='https://e-commerce-nu-snowy-48.vercel.app/' target='_blank'>Live Demo</a>
-                        </div>
-                    </div>
+        <section className='projects'id='projects'>
+            <h3>Projects Done</h3>
+            <div className="my-projects">
+                <div className="project-one">
+                    <img src={project3}></img>
+                    <h4>System Development</h4>
+                    <Link to='https://github.com/Ronn-code/eclectics-project'>
+                    <h6>Live Demo</h6></Link>
+                    <h6>Github</h6>
                 </div>
-                 <div className="project-card">
-                    <div className="card-image">
-                        <img src={project3}></img>
-                    </div>
-                    <div className="card-details">
-                        <h3>Smart Booking Sytem Dev</h3>
-                        <h5>It was a project at Eclectics International<br/>
-                        To build a system where lecturers can book<br/>
-                        rooms in a school</h5>
-                        <div className="links">
-                            <a href='https://github.com/Ronn-code/eclectics-project' target='_blank'>Github</a>
-                            <a href='#'>Live Demo</a>
-                        </div>
-                    </div>
+                <div className="project-one">
+                    <img src={project4}></img>
+                    <h4>Online Car-Wash Website</h4>
+                    <Link to='https://online-carwash-system.vercel.app/'>
+                    <h6>Live Demo</h6></Link>
+                    <Link to='https://github.com/Ronn-code'>
+                    <h6>Github</h6></Link>
                 </div>
-                 <div className="project-card">
-                    <div className="card-image">
-                        <img src={project2}></img>
-                    </div>
-                    <div className="card-details">
-                        <h3>Admin Dashboard Dev</h3>
-                        <h5>It is an admin dashboard system in a school<br/>
-                        where admin can maintain the students,teachers<br/>
-                        exams,activities,fee payment e.t.c</h5>
-                        <div className="links">
-                            <a href='https://github.com/Ronn-code/admin-school-system' target='_blank'>Github</a>
-                            <a href='https://admin-school-system-ten.vercel.app/' target='_blank'>Live Demo</a>
-                        </div>
-                    </div>
+                <div className="project-one">
+                    <img src={project1}></img>
+                    <h4>E-Commerce Website</h4>
+                    <Link to='https://e-commerce-nu-snowy-48.vercel.app/'>
+                    <h6>Live Demo</h6></Link>
+                    <Link to='https://github.com/Ronn-code'>
+                    <h6>Github</h6></Link>
                 </div>
             </div>
         </section>
