@@ -156,16 +156,17 @@ function Home() {
                 <div className="project-one">
                     <img src={project3}></img>
                     <h4>System Development</h4>
-                    <Link to='https://github.com/Ronn-code/eclectics-project'>
+                    <Link to='https://eclectis-smartroom-allocation.vercel.app/'>
                     <h6>Live Demo</h6></Link>
-                    <h6>Github</h6>
+                    <Link to='https://github.com/Ronn-code/Eclectis-Smartroom-allocation'>
+                    <h6>Github</h6></Link>
                 </div>
                 <div className="project-one">
                     <img src={project4}></img>
                     <h4>Online Car-Wash Website</h4>
                     <Link to='https://online-carwash-system.vercel.app/'>
                     <h6>Live Demo</h6></Link>
-                    <Link to='https://github.com/Ronn-code'>
+                    <Link to='https://github.com/Ronn-code/Online-Carwash-system'>
                     <h6>Github</h6></Link>
                 </div>
                 <div className="project-one">
@@ -173,7 +174,7 @@ function Home() {
                     <h4>E-Commerce Website</h4>
                     <Link to='https://e-commerce-nu-snowy-48.vercel.app/'>
                     <h6>Live Demo</h6></Link>
-                    <Link to='https://github.com/Ronn-code'>
+                    <Link to='https://github.com/Ronn-code/E-commerce'>
                     <h6>Github</h6></Link>
                 </div>
             </div>
