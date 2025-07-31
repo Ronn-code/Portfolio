@@ -73,45 +73,44 @@ function Home() {
             </div>
             <h4>Skills</h4>
             <div className="skills">
-                <div className="progress-bar">
-                    <svg>
-                        <circle cx='38' cy='38' r='34'></circle>
-                    </svg>
-                    <div className="language">
-                        <p>Html</p>
+                <div className="skill-group" style={{display:'flex', gap:'2rem'}}>
+                    <div class="skill-item" style={{width:'20%'}}>
+                        <h3>HTML</h3>
+                        <div className="progress-bar">
+                            <div className="progress" style={{width: "90%"}}></div>
+                        </div>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-item" style={{width:'20%'}}>
+                        <h3>Tailwind CSS</h3>
+                        <div className="progress-bar">
+                            <div className="progress" style={{width: "82%"}}></div>
+                        </div>
+                        <span>82%</span>
                     </div>
                 </div>
-                 <div className="progress-bar">
-                    <svg>
-                        <circle cx='38' cy='38' r='34'></circle>
-                    </svg>
-                    <div className="language">
-                        <p>Css</p>
+                <div className="skill-group" style={{display:'flex', gap:'2rem'}}>
+                    <div class="skill-item" style={{width:'20%'}}>
+                        <h3>Javascript</h3>
+                        <div className="progress-bar">
+                            <div className="progress" style={{width: "76%"}}></div>
+                        </div>
+                        <span>76%</span>
+                    </div>
+                    <div class="skill-item" style={{width:'20%'}}>
+                        <h3>React JS</h3>
+                        <div className="progress-bar">
+                            <div className="progress" style={{width: "88%"}}></div>
+                        </div>
+                        <span>88%</span>
                     </div>
                 </div>
-                 <div className="progress-bar">
-                    <svg>
-                        <circle cx='38' cy='38' r='34'></circle>
-                    </svg>
-                    <div className="language">
-                        <p>JS</p>
+                <div class="skill-item" style={{width:'20%'}}>
+                    <h3>Figma Design</h3>
+                    <div className="progress-bar">
+                        <div className="progress" style={{width: "80%"}}></div>
                     </div>
-                </div>
-                 <div className="progress-bar">
-                    <svg>
-                        <circle cx='38' cy='38' r='34'></circle>
-                    </svg>
-                    <div className="language">
-                        <p>React</p>
-                    </div>
-                </div>
-                 <div className="progress-bar">
-                    <svg>
-                        <circle cx='38' cy='38' r='34'></circle>
-                    </svg>
-                    <div className="language">
-                        <p>Figma</p>
-                    </div>
+                    <span>80%</span>
                 </div>
             </div>
         </section>
